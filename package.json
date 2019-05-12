@@ -4,6 +4,8 @@
   "description": "typescript boilerplate for mycast server system",
   "main": "dist/index.js",
   "scripts": {
+    "build": "tsc",
+    "run": "node dist/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -13,10 +15,14 @@
   "keywords": [
     "mycast"
   ],
-  "author": "shiguruna (eruhoon@gmail.com)",
+  "author": "shiguruna <eruhoon@gmail.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/eruhoon/mycast-server-ts-boilerplate/issues"
   },
-  "homepage": "https://github.com/eruhoon/mycast-server-ts-boilerplate#readme"
+  "homepage": "https://github.com/eruhoon/mycast-server-ts-boilerplate#readme",
+  "devDependencies": {
+    "@types/source-map-support": "^0.5.0",
+    "source-map-support": "^0.5.12"
+  }
 }

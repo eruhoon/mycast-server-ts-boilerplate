@@ -1,3 +1,9 @@
+# mycast
+dist
+
+# npm
+package-lock.json
+
 # Logs
 logs
 *.log
